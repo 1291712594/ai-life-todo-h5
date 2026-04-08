@@ -1,0 +1,9 @@
+name = "ai-life-todo-api"
+main = "index.js"
+compatibility_date = "2026-04-08"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[vars]
+MONGODB_DB = "todoDB"
+ALLOWED_ORIGINS = "https://ai-life-todo-h5.vercel.app,https://ai-life-todo-h5-ai-todo-team.vercel.app,https://ai-life-todo-h5-cuoyl7ssj-ai-todo-team.vercel.app,https://ai-life-todo-h5-1291712594-5024-ai-todo-team.vercel.app,https://ai-life-todo-h5-5ppsdh2e9-ai-todo-team.vercel.app,https://ai-life-todo-h5.pages.dev,https://fcf7d48f.ai-life-todo-h5.pages.dev"
